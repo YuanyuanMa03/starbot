@@ -10,11 +10,12 @@ import { ExtensionManager } from "./extensions";
 import { MessageRouter } from "./router";
 
 export async function startDaemon(): Promise<void> {
-	console.log("╔═══════════════════════════════════╗");
-	console.log("║          Starbot v0.1.0           ║");
-	console.log("║  Personal AI Assistant Gateway     ║");
-	console.log("╚═══════════════════════════════════╝");
-	console.log();
+	console.log("");
+	console.log("  ⭐  S T A R B O T  ⭐");
+	console.log("  ─────────────────────");
+	console.log("  Your AI companion is booting up...");
+	console.log("  Local-first. Multi-channel. Infinitely extensible.");
+	console.log("");
 
 	// Load configuration
 	const config = loadConfig();

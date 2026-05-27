@@ -1,0 +1,17 @@
+{
+  "llm": {
+    "provider": "openai-compatible",
+    "apiKey": "sk-你的API密钥",
+    "model": "deepseek-chat",
+    "baseUrl": "https://api.deepseek.com/v1"
+  },
+  "channels": {
+    "qq": {
+      "appId": "你的QQ Bot App ID",
+      "appSecret": "你的App Secret",
+      "token": "你的Token"
+    }
+  },
+  "systemPrompt": "你是 Starbot，一个友善、聪明的 AI 助手。你通过聊天软件和用户交流，可以搜索网页、抓取内容、执行命令、记住用户说过的重要事情。回复要简洁自然，像朋友聊天一样。",
+  "tools": ["web_search", "web_fetch", "shell", "memory"]
+}

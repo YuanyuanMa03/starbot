@@ -59,14 +59,15 @@ async function main() {
 			break;
 
 		default:
-			console.log("Starbot — Personal AI Assistant Gateway\n");
+			console.log("⭐ Starbot — Your AI Companion ⭐\n");
 			console.log("Usage:");
-			console.log("  starbot start    Start the daemon");
-			console.log("  starbot config   Show configuration");
-			console.log("  starbot sessions List sessions");
+			console.log("  starbot start    Start the daemon (your AI comes online)");
+			console.log("  starbot config   Show configuration path");
+			console.log("  starbot sessions List active sessions");
 			console.log("  starbot version  Show version");
 			console.log();
-			console.log("Configuration: ~/.starbot/config.json");
+			console.log("Config: ~/.starbot/config.json");
+			console.log("Docs:   https://github.com/YuanyuanMa03/starbot");
 			break;
 	}
 }
