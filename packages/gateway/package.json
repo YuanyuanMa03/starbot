@@ -1,0 +1,22 @@
+{
+  "name": "@starbot/gateway",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "starbot": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@starbot/core": "0.1.0",
+    "@starbot/agent": "0.1.0",
+    "@starbot/channels": "0.1.0",
+    "chalk": "5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vitest": "3.2.1"
+  }
+}
