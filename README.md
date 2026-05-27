@@ -214,3 +214,13 @@ MIT — 自由使用，自由修改，自由分发。
   <br><br>
   <em>每一颗 Star 都是星际旅途中的一颗新星 ✨</em>
 </p>
+
+<p align="center">
+  <a href="https://star-history.com/#YuanyuanMa03/starbot&Date">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=YuanyuanMa03/starbot&type=Date&theme=dark" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=YuanyuanMa03/starbot&type=Date" />
+      <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=YuanyuanMa03/starbot&type=Date" width="600" />
+    </picture>
+  </a>
+</p>
